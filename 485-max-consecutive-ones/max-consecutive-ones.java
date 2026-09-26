@@ -3,7 +3,6 @@ class Solution {
         int n = nums.length;
         int count = 0;
         int count1 = 0;
-        int result = 0;
         for(int i =0; i<n; i++) {
             if(nums[i] == 1) {
                 count++;
